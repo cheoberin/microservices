@@ -10,7 +10,7 @@ import javax.validation.constraints.NotBlank;
 
 @Data
 @Entity
-public class Marca {
+public class Brand {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

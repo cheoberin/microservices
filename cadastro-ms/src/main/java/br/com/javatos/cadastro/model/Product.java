@@ -7,30 +7,30 @@ import javax.validation.constraints.NotBlank;
 
 @Data
 @Entity
-public class Produtos {
+public class Product {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
     @NotBlank
-    private String nome;
+    private String description;
 
     @NotBlank
-    private String codigoProduto;
+    private String productCod;
 
     @NotBlank
-    private String unidadeMedida;
+    private String measureUnit;
 
     @NotBlank
-    private double valorUnitario;
-
-    @NotBlank
-    @ManyToOne
-    private Marca marca;
+    private double unitValue;
 
     @NotBlank
     @ManyToOne
-    private Categoria categoria;
+    private Brand brand;
+
+    @NotBlank
+    @ManyToOne
+    private Category category;
 
 }
