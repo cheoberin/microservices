@@ -9,8 +9,8 @@ import javax.validation.constraints.NotBlank;
 import java.io.Serializable;
 import java.math.BigDecimal;
 
-@Entity
 @Data
+@Entity
 public class BuyProduct implements Serializable {
 
     @Id

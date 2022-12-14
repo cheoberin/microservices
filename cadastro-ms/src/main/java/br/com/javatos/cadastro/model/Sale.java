@@ -6,8 +6,8 @@ import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
 import java.util.Date;
 
-@Entity
 @Data
+@Entity
 public class Sale {
 
     @Id

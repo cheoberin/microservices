@@ -2,24 +2,21 @@ package br.com.javatos.cadastro.model;
 
 import lombok.Data;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 import javax.validation.constraints.NotBlank;
-import java.util.Date;
 
 @Data
 @Entity
-public class Buy {
+public class Supplier {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
-    @ManyToOne
-    private Supplier supplier;
-
     @NotBlank
-    private Date date;
-
-
+    private String name;
 
 }
