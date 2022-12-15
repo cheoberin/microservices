@@ -16,7 +16,7 @@ public class Sale {
 
     @ManyToOne
     @NotBlank
-    private User user;
+    private Customer customer;
 
     @NotBlank
     private Date date;
