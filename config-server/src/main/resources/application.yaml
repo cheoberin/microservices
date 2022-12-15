@@ -1,3 +1,6 @@
+server:
+  port: 8888
+
 spring:
   profiles:
     active: native
@@ -6,4 +9,4 @@ spring:
   cloud:
     config:
       server:
-        git: file://microservicos//config//config.iml
+        git: file://microservicos//config

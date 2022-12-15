@@ -8,10 +8,10 @@
 		<version>2.7.6</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>br.com.javatos.venda</groupId>
-	<artifactId>venda-ms</artifactId>
+	<groupId>br.com.javatos.sale</groupId>
+	<artifactId>sale-ms</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>venda-ms</name>
+	<name>sale-ms</name>
 	<description>Venda de produtos e serviços</description>
 	<properties>
 		<java.version>17</java.version>
